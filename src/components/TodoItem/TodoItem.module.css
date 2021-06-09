@@ -1,6 +1,21 @@
 .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 1rem 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #f7f5ef;
+}
+
+.item button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item button:hover {
+    color: #ebb002;
 }
